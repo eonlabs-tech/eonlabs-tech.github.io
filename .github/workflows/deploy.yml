@@ -3,6 +3,8 @@ name: Deploy EonLabs Tech
 
 on:
   workflow_dispatch:
+  repository_dispatch:
+    types: [atualizar-eonlabs]
 
 permissions:
   contents: read
